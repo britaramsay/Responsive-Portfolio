@@ -231,3 +231,112 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 640px) {
+    .main-section {
+        background-color: #ffffff;
+        padding: 30px;
+        margin: 0 0 40px 0;
+        width: 100%;
+        max-width: 640px;
+        /* float: left; */
+        border: 1px solid #ddd;
+        margin-top: 540px;
+   }
+   
+   .sidebar {
+        background-color: #ffffff;
+        padding: 30px;
+        width: 100%;
+        max-width: 640px;
+        /* float: right; */
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+   }
+   #logo {
+    height: 90px;
+    max-width: 640px;
+    width: 100%;
+    background-color: #4aaaa5;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    clear: both;
+    }
+
+    nav { 
+        float: right;
+        margin-top: 25px;
+        max-width: 640px;
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    nav a {
+        color: #999;
+        margin-left: 15px;
+        display: inline-block;
+        border-left: 1px solid #efefef;
+        padding-left: 15px;
+        line-height: 18px;
+        text-decoration: none;
+    }
+    .work {
+        max-width: 640px;
+        width: 100%;
+        overflow: auto;
+        position: relative;
+        float: left;
+        margin: 20px 0 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-section {
+        background-color: #ffffff;
+        padding: 30px;
+        margin: 0 0 40px 0;
+        width: 100%;
+        max-width: 640px;
+        /* float: left; */
+        border: 1px solid #ddd;
+   }
+   
+   .sidebar {
+        background-color: #ffffff;
+        padding: 30px;
+        width: 100%;
+        max-width: 640px;
+        /* float: right; */
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+   }
+}
+
+/* @media only screen and (max-width: 980px) {
+    .main-section {
+        background-color: #ffffff;
+        padding: 30px;
+        margin: 0 0 40px 0;
+        width: 100%;
+        max-width: 650px;
+        float: left;
+        border: 1px solid #ddd;
+   }
+   
+   .sidebar {
+        background-color: #ffffff;
+        padding: 30px;
+        width: 100%;
+        max-width: 270px;
+        float: right;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+   }
+} */
