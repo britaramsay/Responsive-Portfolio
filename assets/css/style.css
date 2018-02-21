@@ -101,7 +101,7 @@ p {
 .main-section {
      background-color: #ffffff;
      padding: 30px;
-     margin: 0 0 40px 0;
+     margin: 0 0 100px 0;
      width: 100%;
      max-width: 650px;
      float: left;
@@ -147,13 +147,15 @@ h2, h3, .sidebar {
 footer {
     background-color: #666666;
     color: #fff;
-    padding: 30px 0;
+    padding: 20px 0;
     clear: both;
     border-top: 8px solid #4aaaa5;
-    /* border-top: 8px solid #CCBC09; */
     color: #ccc;
     font-size: 12px;
     text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .work {
@@ -255,7 +257,7 @@ input[type=submit] {
         /* max-width: 400px; */
         float: left;
         border: 1px solid #ddd;
-        margin: 0px 0px 20px 20px;
+        margin: 0px 0px 150px 20px;
    }   
    .sidebar {
         background-color: #ffffff;
@@ -323,7 +325,7 @@ input[type=submit] {
         width: 100%;
         float: right;
         border: 1px solid #ddd;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
         margin-right: 0px;
    }
    .work {
@@ -365,7 +367,7 @@ input[type=submit] {
         max-width: 640px;
         /* float: right; */
         border: 1px solid #ddd;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
     #logo {
         height: 90px;
