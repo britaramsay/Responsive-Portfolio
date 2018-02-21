@@ -246,7 +246,7 @@ input[type=submit] {
         font-weight: 700;
         font-size: 30px;
         text-decoration: none;
-        margin-left: 40px;
+        margin-left: 20px;
      }
     .main-section {
         background-color: #ffffff;
@@ -255,7 +255,7 @@ input[type=submit] {
         /* max-width: 400px; */
         float: left;
         border: 1px solid #ddd;
-        margin: 0px 0px 0px 40px;
+        margin: 0px 0px 0px 20px;
    }   
    .sidebar {
         background-color: #ffffff;
@@ -274,6 +274,16 @@ input[type=submit] {
         position: relative;
         float: left;
         margin: 20px 0 25px;
+    }
+    nav a:last-child{
+        color: #999;
+        margin-left: 15px;
+        display: inline-block;
+        border-left: 1px solid #efefef;
+        padding-left: 15px;
+        line-height: 18px;
+        text-decoration: none;
+        margin-right: 20px;
     }
 }
 
